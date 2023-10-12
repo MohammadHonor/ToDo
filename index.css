@@ -1,0 +1,89 @@
+.first{
+   display: flex;
+   background-color: #c4d01c;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.container{
+    border: 5px solid #8e3de5;
+    background-color: rgb(41, 216, 216);
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.clickArea{
+    background-color: #7dea3d;
+    border:1px solid blue;
+    border-radius: 5px; 
+    width: 250px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* #text{
+    background-color: #d4f3c2;
+    border:1px solid #d4f3c2; 
+    
+   
+} */
+#b1{
+    width: 25px;
+    height: 25px;
+    background-color: #d4f3c2;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+   
+    
+}
+#b1 img{
+    width: 25px;
+    height: 25px;
+    background-color: #618d48;
+    
+    
+
+}
+#msg{
+    color: red;
+    font-size: 10px;
+}
+.taskContainer{
+    display: flex;
+    flex-flow: column;
+    width: 250px;
+    
+    height: auto;
+    gap: 10px;
+
+}
+.task_id{
+    border: 2px solid blue;
+    border-radius: 6px;
+    padding: 4px;
+    background-color: #95ea63;
+}
+.taskContainer #icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.task_id{
+    display: flex;
+    flex-flow: column;
+}
+.f1{
+    width: 461.6px;
+}
